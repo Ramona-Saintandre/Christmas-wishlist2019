@@ -1,11 +1,11 @@
  
 
-function addWish (wishList){
+function wishList (addWish){
 // being able to write text to create the list 
-const list = document.getElementById("list");
+const list = document.getElementById(list);
 const text = `<li class="item">
 <i class="fa fa-circle-thin" job ="complete"></i>
-<p class="text"> ${wish} </p>
+<p class="text"> ${addWish} </p>
 <i class="fa fa-trash-o delete" job="delete"></i>
 </li>`
 const position = "beforeend";
@@ -14,10 +14,9 @@ list.insertAdjacentHTML(position,text);
 console.log("is this working");
 }
 
-wishList("weighted blanket");
+// wishList ("weighted blanket");
 
 // const input = document.getElementById("input");
-// const element = document.getElementById("element");
-// element.insertAdjacentHTML(position, text);
+// const dateItem = document.getElementById("date");
 // const clear = document.querySelector(".clear-item");
-// const dateElement = document.getElementById("date");
+// element.insertAdjacentHTML(position, text);
