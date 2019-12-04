@@ -14,3 +14,5 @@ My goal is to create this list, add a christmas tree to, from our christmas tree
 [To Do List App in JavaScript [beginners]](https://www.youtube.com/watch?v=b8sUhU_eq3g&t=209s)
 
 [insertAdjacentHTML()](https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp)
+
+[HTML DOM insertAdjacentHTML() Method](https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp)
