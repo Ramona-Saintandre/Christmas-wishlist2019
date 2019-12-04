@@ -1,8 +1,4 @@
-
  
-
-
-
 
 function addWish (wishList){
 // being able to write text to create the list 
