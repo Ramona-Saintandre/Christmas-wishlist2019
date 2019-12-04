@@ -11,9 +11,9 @@ const text = `<li class="item">
 const position = "beforeend";
 // insertAdjacentHTML() need to research
 list.insertAdjacentHTML(position,text);
-console.log("is this working");
-}
 
+}
+console.log("is this working");
 // wishList ("weighted blanket");
 
 // const input = document.getElementById("input");
