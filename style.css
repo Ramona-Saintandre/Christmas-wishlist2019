@@ -1,0 +1,18 @@
+:root{
+    --clr-primary:red;
+    --clr-light:white;
+    --clr-dark:black;
+    --clr-warning:maroon;
+}
+*,
+*::before,*::after{
+    font-family: inherit;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Work Sans",sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
