@@ -20,15 +20,48 @@
             </ul>
             <form action="">
                <input type 'text' class="newlist" placeholder="new list name" aria-label="new list name"/>
-               <button class="button list" aria-label="create new list">+</button>
-
-            
-            </form>
-           
+               <button class="button list" aria-label="create new list">+</button>            
+            </form>           
        
     </div>
 
-    <div class="todo-list"></div>
+    <div class="todo-list">
+        <div class="todo-header">
+            <h2 class="list-title">Code</h2>
+                <p class="task-count">3 task left </p>            
+        </div>
+        <div class="todo-body">
+            <div class="tasks">
+                <div class="task">
+                    <input type ='checkbox' id="task-1"/>
+                    <label for="task-1">
+                        <span class="custom-chekbox"></span>
+                        task 1
+                        </label>
+                </div>
+                <!-- end of task1 -->
+                <div class="task">
+                    <input type ='checkbox' id="task-2"/>
+                    <label for="task-1">
+                        <span class="custom-chekbox"></span>
+                        task 2
+                        </label>
+                </div>
+                <!-- end of task2 -->
+                <div class="task">
+                    <input type ='checkbox' id="task-3"/>
+                    <label for="task-1">
+                        <span class="custom-chekbox"></span>
+                        task 3
+                        </label>
+                </div>
+                <!-- end of task3 -->
+            </div>
+            <div class="new-task-creator"></div>
+            <div class="delete"></div>
+
+        </div>
+    </div>
     <script src="/main.js"></script>
 </body>
 </html>
