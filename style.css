@@ -27,7 +27,7 @@ body{
 }
 
 .all-task{
-    grid-area: lists;
+    grid-area: list;
 }
 
 .todo-list{
