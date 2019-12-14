@@ -1,10 +1,10 @@
  // being able to write text to create the list 
  const list = document.getElementById(list);
 
- function wishList(addWish) {
+ function addToDo(toDo) {
      const text = `<li class="item">
 <i class="fa fa-circle-thin" job ="complete"></i>
-<p class="text"> ${addWish} </p>
+<p class="text"> ${toDo} </p>
 <i class="fa fa-trash-o delete" job="delete"></i>
 </li>`
      const position = "beforeend"; //this will put the wish after the last child 
